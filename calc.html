@@ -2,14 +2,17 @@
 <html>
 	 <head> 
 	 <script src="vue.js"></script>
-	<link rel="stylesheet" href="arc.css">
-	 <script type="text/javascript" src="arc.js"></script>
+	 <script type="text/javascript" src="calc.js"></script>
      	<meta charset="utf-8">
 	 </head>
 	 <body>
 	 <div id="calc">
 	 <input id="id_1" type="text" value="" name="0" size=20 maxlength=30>
-<select id="idd"><option>+</option><option>-</option><option>/</option><option>*</option></select> 
+<select id="idd">
+<option>+</option>
+<option>-</option>
+<option>/</option>
+<option>*</option></select> 
 <input id="id_2" type="text" value="" name="1" size=20 maxlength=30>
 <input type="button" v-on:click="onClick" value="=">
 <input id="id_3" type="text" value="" name="3" size=20 maxlength=30>
